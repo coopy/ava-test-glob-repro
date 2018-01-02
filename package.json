@@ -1,0 +1,17 @@
+{
+  "name": "ava-test-glob-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava src/**/*.test.js --verbose"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "ava": "^0.24.0"
+  },
+  "dependencies": {
+    "node-glob": "^1.2.0"
+  }
+}
